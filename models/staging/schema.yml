@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+    - name: staging
+      database: de-zoomcamp-hw
+      schema: dbt_dataset_asia
+
+      tables:
+        - name: external_fhv_tripdata
